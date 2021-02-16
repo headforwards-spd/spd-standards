@@ -1,0 +1,1 @@
+# spd-code-style-linting
