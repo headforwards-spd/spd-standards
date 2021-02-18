@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-spd-ts",
+  "name": "@headforwards-spd/eslint-config-spd-ts",
   "version": "0.0.1",
   "main": ".eslintrc.js",
   "dependencies": {
@@ -14,5 +14,6 @@
   },
   "devDependencies": {
     "typescript": "*"
-  }
+  },
+  "gitHead": "58587bafcf2aaae2932c3db292ca443a277933a1"
 }

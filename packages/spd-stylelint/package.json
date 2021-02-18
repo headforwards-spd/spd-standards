@@ -1,6 +1,7 @@
 {
-  "name": "spd-stylelint",
+  "name": "@headforwards-spd/spd-stylelint",
   "version": "0.0.1",
   "main": ".stylelintrc.js",
-  "license": "MIT"
+  "license": "MIT",
+  "gitHead": "58587bafcf2aaae2932c3db292ca443a277933a1"
 }

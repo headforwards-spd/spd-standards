@@ -1,9 +1,10 @@
 {
-  "name": "spd-prettier",
+  "name": "@headforwards-spd/spd-prettier",
   "version": "0.0.1",
   "main": ".prettierrc.js",
   "license": "MIT",
   "dependencies": {
     "gts": "^3.1.0"
-  }
+  },
+  "gitHead": "58587bafcf2aaae2932c3db292ca443a277933a1"
 }
