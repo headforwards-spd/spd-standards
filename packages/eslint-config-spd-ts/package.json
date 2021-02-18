@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-spd-ts",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "main": ".eslintrc.js",
   "dependencies": {
     "eslint-config-spd": "^1.0.0",
