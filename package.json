@@ -1,5 +1,5 @@
 {
-  "name": "@headforwards-spd/spd-code-style-linting",
+  "name": "root",
   "private": true,
   "workspaces": [
     "packages/*"

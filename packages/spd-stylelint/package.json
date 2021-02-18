@@ -1,5 +1,10 @@
 {
   "name": "@headforwards-spd/spd-stylelint",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/headforwards-spd/spd-code-style-linting.git",
+    "directory": "packages/spd-stylelint"
+  },
   "version": "0.0.1",
   "main": ".stylelintrc.js",
   "license": "MIT",

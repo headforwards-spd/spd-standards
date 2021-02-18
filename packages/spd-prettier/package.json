@@ -1,5 +1,10 @@
 {
   "name": "@headforwards-spd/spd-prettier",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/headforwards-spd/spd-code-style-linting.git",
+    "directory": "packages/spd-prettier"
+  },
   "version": "0.0.1",
   "main": ".prettierrc.js",
   "license": "MIT",

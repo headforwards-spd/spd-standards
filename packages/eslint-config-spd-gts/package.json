@@ -1,5 +1,13 @@
 {
-  "name": "@headforwards-spd/spd-code-style-linting/eslint-config-spd-gts",
+  "name": "@headforwards-spd/eslint-config-spd-gts",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com/headforwards-spd/spd-code-style-linting.git",
+    "directory": "packages/eslint-config-spd-gts"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "version": "0.0.1",
   "main": ".eslintrc.js",
   "dependencies": {
