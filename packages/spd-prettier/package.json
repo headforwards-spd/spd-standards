@@ -1,0 +1,9 @@
+{
+  "name": "spd-prettier",
+  "version": "1.0.0",
+  "main": ".prettierrc.js",
+  "license": "MIT",
+  "dependencies": {
+    "gts": "^3.1.0"
+  }
+}

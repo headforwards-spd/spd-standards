@@ -1,0 +1,13 @@
+{
+    "npm.packageManager": "yarn",
+    "editor.formatOnSave": false,
+    "editor.formatOnPaste": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true
+    },
+    "eslint.workingDirectories": ["./packages/*"],
+    "files.autoSave": "afterDelay",
+    "eslint.format.enable": true,
+    "workbench.editor.enablePreview": false,
+    "intelephense.environment.phpVersion": "7.3"
+  }
