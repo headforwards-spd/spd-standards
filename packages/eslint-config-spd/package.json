@@ -11,7 +11,7 @@
   "version": "0.0.1",
   "main": ".eslintrc.js",
   "dependencies": {
-    "eslint-config-spd-gts": "^1.0.0",
+    "@headforwards-spd/eslint-config-spd-gts": "^0.0.1",
     "eslint-plugin-filenames": "^1.3.2",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-simple-import-sort": "^7.0.0",
