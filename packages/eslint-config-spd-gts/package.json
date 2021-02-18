@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-spd-gts",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": ".eslintrc.js",
   "dependencies": {
     "gts": "^3.1.0"
