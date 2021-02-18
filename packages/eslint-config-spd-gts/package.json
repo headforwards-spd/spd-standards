@@ -1,5 +1,5 @@
 {
-  "name": "@headforwards-spd/eslint-config-spd-gts",
+  "name": "@headforwards-spd/spd-code-style-linting/eslint-config-spd-gts",
   "version": "0.0.1",
   "main": ".eslintrc.js",
   "dependencies": {
@@ -8,5 +8,5 @@
   "engines": {
     "node": ">=12.0.0"
   },
-  "gitHead": "58587bafcf2aaae2932c3db292ca443a277933a1"
+  "gitHead": "5a921a7da37b6bef5f5c18abe0244cc3fcd4b31e"
 }
