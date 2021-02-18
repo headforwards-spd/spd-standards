@@ -5,7 +5,7 @@
     "url": "ssh://git@github.com/headforwards-spd/spd-code-style-linting.git",
     "directory": "packages/spd-prettier"
   },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": ".prettierrc.js",
   "license": "MIT",
   "dependencies": {

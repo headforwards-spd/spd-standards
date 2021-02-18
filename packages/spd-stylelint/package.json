@@ -5,7 +5,7 @@
     "url": "ssh://git@github.com/headforwards-spd/spd-code-style-linting.git",
     "directory": "packages/spd-stylelint"
   },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": ".stylelintrc.js",
   "license": "MIT",
   "gitHead": "5a921a7da37b6bef5f5c18abe0244cc3fcd4b31e"

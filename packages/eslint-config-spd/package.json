@@ -8,10 +8,10 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": ".eslintrc.js",
   "dependencies": {
-    "@headforwards-spd/eslint-config-spd-gts": "^0.0.1",
+    "@headforwards-spd/eslint-config-spd-gts": "^0.0.2",
     "eslint-plugin-filenames": "^1.3.2",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-simple-import-sort": "^7.0.0",
