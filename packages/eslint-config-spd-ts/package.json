@@ -3,7 +3,7 @@
   "version": "0.0.4",
   "repository": {
     "type": "git",
-    "url": "ssh://git@github.com/headforwards-spd/spd-code-style-linting.git",
+    "url": "ssh://git@github.com/headforwards-spd/spd-standards.git",
     "directory": "packages/eslint-config-spd-ts"
   },
   "license": "MIT",
