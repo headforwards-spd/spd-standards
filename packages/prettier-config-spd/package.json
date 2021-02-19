@@ -11,5 +11,8 @@
   "dependencies": {
     "gts": "^3.1.0"
   },
-  "gitHead": "2c6988c10f024c083f4ed98ec2c5edf4e6a78c58"
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "8fb5b11015dbfd365a4cadf8e7c70659f4bcd88a"
 }
