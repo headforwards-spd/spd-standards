@@ -8,12 +8,6 @@
   },
   "license": "MIT",
   "main": ".eslintrc.js",
-  "dependencies": {
-    "gts": "^3.1.0"
-  },
-  "engines": {
-    "node": ">=12.0.0"
-  },
   "publishConfig": {
     "access": "public",
     "registry": "https://npm.pkg.github.com/"
