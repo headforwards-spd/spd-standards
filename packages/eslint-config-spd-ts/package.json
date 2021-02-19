@@ -1,6 +1,6 @@
 {
   "name": "@headforwards-spd/eslint-config-spd-ts",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "repository": {
     "type": "git",
     "url": "ssh://git@github.com/headforwards-spd/spd-standards.git",
@@ -12,7 +12,7 @@
     "test": "eslint src/**/*"
   },
   "dependencies": {
-    "@headforwards-spd/eslint-config-spd": "^0.0.7",
+    "@headforwards-spd/eslint-config-spd": "^0.0.8",
     "gts": "^3.1.0"
   },
   "devDependencies": {
