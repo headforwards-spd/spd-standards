@@ -1,6 +1,6 @@
 {
   "name": "@headforwards-spd/eslint-config-spd-ts",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "repository": {
     "type": "git",
     "url": "ssh://git@github.com/headforwards-spd/spd-code-style-linting.git",
@@ -12,7 +12,7 @@
     "test": "eslint src/**/*"
   },
   "dependencies": {
-    "@headforwards-spd/eslint-config-spd": "^0.0.3",
+    "@headforwards-spd/eslint-config-spd": "^0.0.4",
     "gts": "^3.1.0"
   },
   "devDependencies": {
