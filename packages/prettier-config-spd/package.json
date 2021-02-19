@@ -1,12 +1,15 @@
 {
-  "name": "@headforwards-spd/spd-stylelint",
+  "name": "@headforwards-spd/prettier-config-spd",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "ssh://git@github.com/headforwards-spd/spd-code-style-linting.git",
-    "directory": "packages/spd-stylelint"
+    "directory": "packages/prettier-config-spd"
   },
-  "version": "0.0.2",
-  "main": ".stylelintrc.js",
   "license": "MIT",
+  "main": ".prettierrc.js",
+  "dependencies": {
+    "gts": "^3.1.0"
+  },
   "gitHead": "5a921a7da37b6bef5f5c18abe0244cc3fcd4b31e"
 }

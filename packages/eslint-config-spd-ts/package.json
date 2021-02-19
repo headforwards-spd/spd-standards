@@ -1,27 +1,28 @@
 {
   "name": "@headforwards-spd/eslint-config-spd-ts",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "ssh://git@github.com/headforwards-spd/spd-code-style-linting.git",
     "directory": "packages/eslint-config-spd-ts"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
-  "version": "0.0.2",
+  "license": "MIT",
   "main": ".eslintrc.js",
+  "scripts": {
+    "test": "eslint src/**/*"
+  },
   "dependencies": {
     "@headforwards-spd/eslint-config-spd": "^0.0.2",
     "gts": "^3.1.0"
   },
-  "scripts": {
-    "test": "eslint src/**/*"
+  "devDependencies": {
+    "typescript": "*"
   },
   "peerDependencies": {
     "typescript": "*"
   },
-  "devDependencies": {
-    "typescript": "*"
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "gitHead": "5a921a7da37b6bef5f5c18abe0244cc3fcd4b31e"
 }
