@@ -1,5 +1,8 @@
 module.exports = {
-  extends: ['@headforwards-spd/spd-gts', 'plugin:sonarjs/recommended'],
+  extends: [
+    '@headforwards-spd/eslint-config-spd-gts',
+    'plugin:sonarjs/recommended',
+  ],
   plugins: ['sonarjs', 'simple-import-sort', 'filenames', 'import'],
   parserOptions: { ecmaVersion: 2018 },
   rules: {
