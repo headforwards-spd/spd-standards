@@ -1,6 +1,6 @@
 {
   "name": "@headforwards-spd/eslint-config-spd",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "repository": {
     "type": "git",
     "url": "ssh://git@github.com/headforwards-spd/spd-standards.git",
@@ -9,7 +9,7 @@
   "license": "MIT",
   "main": ".eslintrc.js",
   "dependencies": {
-    "@headforwards-spd/eslint-config-spd-gts": "^0.0.4",
+    "@headforwards-spd/eslint-config-spd-gts": "^0.0.5",
     "eslint-plugin-filenames": "^1.3.2",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-simple-import-sort": "^7.0.0",
