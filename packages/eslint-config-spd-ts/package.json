@@ -22,6 +22,7 @@
     "typescript": "*"
   },
   "publishConfig": {
+    "access": "public",
     "registry": "https://npm.pkg.github.com/"
   },
   "gitHead": "5a921a7da37b6bef5f5c18abe0244cc3fcd4b31e"

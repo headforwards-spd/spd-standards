@@ -13,5 +13,9 @@
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-prettier": "^1.1.2"
   },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://npm.pkg.github.com/"
+  },
   "gitHead": "5a921a7da37b6bef5f5c18abe0244cc3fcd4b31e"
 }
