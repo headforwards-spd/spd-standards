@@ -1,6 +1,6 @@
 {
   "name": "@headforwards-spd/stylelint-config-spd",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "repository": {
     "type": "git",
     "url": "ssh://git@github.com/headforwards-spd/spd-code-style-linting.git",
