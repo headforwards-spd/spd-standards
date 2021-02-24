@@ -1,6 +1,9 @@
 module.exports = {
   extends: ['@headforwards-spd/spd-gts', 'plugin:sonarjs/recommended'],
   plugins: ['sonarjs', 'simple-import-sort', 'filenames', 'import'],
+  parserOptions: {
+    ecmaVersion: 2020,
+  },
   rules: {
     'simple-import-sort/imports': 'error',
     'simple-import-sort/exports': 'error',
