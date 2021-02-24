@@ -1,8 +1,5 @@
 # SPD Coding Standards
 
-To install packages from `@headforwards-spd`, add the following line to your `.npmrc` file:
-
-`@headforwards-spd:registry=https://npm.pkg.github.com`
 ## Packages
 
 * [eslint-config-spd](packages/eslint-config-spd/README.md) - javascript eslint rules
