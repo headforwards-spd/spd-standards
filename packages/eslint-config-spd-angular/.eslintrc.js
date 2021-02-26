@@ -12,6 +12,8 @@ module.exports = {
         'plugin:@angular-eslint/template/process-inline-templates',
       ],
       rules: {
+        // export default breaks Angular AOT compiler
+        'import/prefer-default-export': 'off',
         '@angular-eslint/directive-selector': [
           'error',
           {
