@@ -1,7 +1,10 @@
 module.exports = {
-  extends: ['@headforwards-spd/spd-ts'],
   ignorePatterns: ['projects/**/*'],
   overrides: [
+    {
+      files: ['*.js', '*.ts'],
+      extends: ['@headforwards-spd/spd-ts'],
+    },
     {
       files: ['*.ts'],
       extends: [
