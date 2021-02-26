@@ -5,6 +5,9 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "lerna-publish": "lerna publish from-git"
+  },
   "husky": {
     "hooks": {
       "pre-commit": [
