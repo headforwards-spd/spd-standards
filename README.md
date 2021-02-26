@@ -1,5 +1,17 @@
 # SPD Coding Standards
 
+## npm Registry
+
+`@headforwards-spd/standards` packages are published to the [npm package registry](https://www.npmjs.com/settings/headforwards-spd/packages)
+
+To publish updated packages, first [create an access token](https://docs.npmjs.com/creating-and-viewing-access-tokens),
+
+then in `~/.npmrc` add:
+
+```
+//registry.npmjs.org/:\_authToken=<AUTH_TOKEN_HERE>
+```
+
 ## [Lerna](https://github.com/lerna/lerna#about)
 
 Lerna is a tool that optimizes the workflow around managing multi-package repositories with git and npm.
@@ -10,7 +22,7 @@ Lerna is a tool that optimizes the workflow around managing multi-package reposi
 
 Bootstrap the packages in the current Lerna repo. Installs all of their dependencies and links any cross-dependencies.
 
-#### `yarn lerna-publish`
+#### `yarn lerna-publish`
 
 Publish packages that have changed since the last release
 
