@@ -7,7 +7,7 @@
   ],
   "scripts": {
     "lerna-bootstrap": "lerna bootstrap",
-    "lerna-publish": "lerna publish from-git",
+    "lerna-publish": "lerna publish",
     "lint": "run-p lint:**",
     "lint:javascript": "eslint --fix '**/*.js'",
     "lint:markdown": "prettier --loglevel warn --write '**/*.md'"
