@@ -6,7 +6,11 @@
     "packages/*"
   ],
   "scripts": {
-    "lerna-publish": "lerna publish from-git"
+    "lerna-bootstrap": "lerna bootstrap",
+    "lerna-publish": "lerna publish from-git",
+    "lint": "run-p lint:**",
+    "lint:javascript": "eslint --fix '**/*.js'",
+    "lint:markdown": "prettier --loglevel warn --write '**/*.md'"
   },
   "husky": {
     "hooks": {
@@ -16,12 +20,17 @@
     }
   },
   "lint-staged": {
-    "package.json": "sort-package-json"
+    "package.json": "sort-package-json",
+    "**/*.js": "eslint --fix --quiet",
+    "**/*.md": "prettier --loglevel silent --write"
   },
   "devDependencies": {
+    "@headforwards-spd/eslint-config-spd": ">0.0.1",
+    "@headforwards-spd/prettier-config-spd": ">0.0.1",
     "husky": "4",
     "lerna": "^3.22.1",
     "lint-staged": "^10.5.4",
+    "npm-run-all": "^4.1.5",
     "sort-package-json": "^1.49.0"
   }
 }

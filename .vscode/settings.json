@@ -5,7 +5,7 @@
     "editor.codeActionsOnSave": {
       "source.fixAll": true
     },
-    "eslint.workingDirectories": ["./packages/*"],
+    "eslint.workingDirectories": [],
     "files.autoSave": "afterDelay",
     "eslint.format.enable": true,
     "workbench.editor.enablePreview": false,

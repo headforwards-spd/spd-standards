@@ -8,6 +8,6 @@ then add a `.eslintrc.js` file which extends SPD config:
 
 ```javascript
 module.exports = {
-  extends: ['@headforwards-spd/spd']
+  extends: ['@headforwards-spd/spd'],
 };
 ```

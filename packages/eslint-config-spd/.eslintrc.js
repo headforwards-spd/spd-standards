@@ -8,11 +8,11 @@ module.exports = {
     'simple-import-sort/imports': 'error',
     'simple-import-sort/exports': 'error',
     'sonarjs/cognitive-complexity': 'warn',
-    'prettier/prettier': ['error', { singleQuote: true }],
+    'prettier/prettier': ['error', {singleQuote: true}],
     quotes: [
       'error',
       'single',
-      { avoidEscape: true, allowTemplateLiterals: true },
+      {avoidEscape: true, allowTemplateLiterals: true},
     ],
   },
   overrides: [

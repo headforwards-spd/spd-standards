@@ -8,6 +8,6 @@ then add a `.stylelintrc.js` file which extends SPD config:
 
 ```javascript
 module.exports = {
-  extends: ["@headforwards-spd/stylelint-config-spd"],
+  extends: ['@headforwards-spd/stylelint-config-spd'],
 };
 ```
