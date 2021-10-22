@@ -10,7 +10,7 @@
   "main": ".stylelintrc.js",
   "dependencies": {
     "sort-package-json": "^1.49.0",
-    "stylelint": "^13.10.0",
+    "stylelint": "^14.0.0",
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-prettier": "^1.1.2"
   },
